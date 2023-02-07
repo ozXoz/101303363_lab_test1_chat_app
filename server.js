@@ -16,7 +16,6 @@ app.use(express.json())
 // Connect to MongoDB
 mongoose
   .connect(
-    "mongodb+srv://test:test123@week04.thgujhs.mongodb.net/?retryWrites=true&w=majority",
     "mongodb+srv://test:test@cluster0.t0kjdo0.mongodb.net/testApp?retryWrites=true&w=majority",
        { useNewUrlParser: true, useUnifiedTopology: true }
   )
